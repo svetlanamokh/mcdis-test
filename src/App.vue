@@ -7,7 +7,7 @@
         <FolderView name="project" :folders="folders" :files="files" />
       </div>
       <div class="diagram">
-        <img src="/images/illustration.jpg">
+        <img src="images/illustration.jpg">
         <div class="diagram-lines">
           <div class="diagram-lines-one">
             <div class="first"></div>

@@ -1,10 +1,10 @@
 <template>
   <div class="folder-wrapper">
-    <img src="/images/folder.png" alt="">
+    <img src="images/folder.png" alt="">
     <div @click="toogleIsShow" class="folder-block">
       <p class="folder">{{name}}</p>
-      <img v-if="isShow" class="arrow" src="/images/arrow.png" alt="">
-      <img v-if="!isShow" class="arrow" src="/images/arrow_up.png" alt="">
+      <img v-if="isShow" class="arrow" src="images/arrow.png" alt="">
+      <img v-if="!isShow" class="arrow" src="images/arrow_up.png" alt="">
     </div>
     <p class="file">{{length}}</p>
   </div>
